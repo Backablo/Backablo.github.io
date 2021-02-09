@@ -1,0 +1,20 @@
+a{color:black;
+  text-decoration: none;}
+
+h1{text-align: center;
+  border-bottom: 3px gray solid;
+  margin:0;}
+
+ol{font-size:20px;
+  border-right: 3px gray solid;
+  width:160px;
+  margin:0;
+  padding-top:20px;}
+img{border:5px solid blue;}
+
+#grid{display:grid;
+      grid-template-columns: 240px 1fr;}
+@media(max-width:800px){
+  #grid{display:block;}
+  ol{border-right: none;}
+}
